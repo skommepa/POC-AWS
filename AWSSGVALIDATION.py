@@ -41,7 +41,7 @@ for i in reservations:
            
             #print ("Port/protocol: %s" % conn.get_all_security_groups(group_ids=group_id)[0].rules[g])
             print ("Source: %s" % conn.get_all_security_groups(group_ids=group_id)[0].rules[g].grants)
-            #sesh  Converted OBJECT into string then compated.
+            #sesh  Converted OBJECT into string then compared.
             if (str(conn.get_all_security_groups(group_ids=group_id)[0].rules[g].grants) == "[0.0.0.0/0]"):
                  {
                     print ('Security Group is NOT SECURE : ')
