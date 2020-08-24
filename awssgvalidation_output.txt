@@ -1,0 +1,39 @@
+[root@ip-10-10-2-29 environment]# python AWSEC2SG.py
+######################
+
+InstanceID: Instance:i-0ce9b062533a424d7
+Number of SGs attached: 1
+SecurityGroup:aws-cloud9-skommepalli-ec78b063a0f14349b2106ebca74a2cf9-InstanceSecurityGroup-NB0O3LEANHCK
+
+Ingress Rules:
+Source: [3.10.201.64/27, 3.10.127.32/27]
+Security Group is SECURE 
+
+######################
+
+InstanceID: Instance:i-06bdc16487ffdc001
+Number of SGs attached: 1
+SecurityGroup:launch-wizard-1
+
+Ingress Rules:
+Source: [0.0.0.0/0]
+Security Group is NOT SECURE : 
+
+
+
+######################
+
+InstanceID: Instance:i-045631d458b922f8e
+Number of SGs attached: 1
+SecurityGroup:seshutestSG1
+
+Ingress Rules:
+Source: [0.0.0.0/0]
+Security Group is NOT SECURE : 
+Source: [0.0.0.0/0]
+Security Group is NOT SECURE : 
+Source: [49.207.203.132/32]
+Security Group is SECURE 
+
+
+[root@ip-10-10-2-29 environment]# 
